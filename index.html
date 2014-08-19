@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>	
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  	<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
+	<title>Music Quiz</title>
+</head>
+<body>
+	<div id="body">
+		<header>
+
+			<!-- Top Navigation -->
+			<nav> 
+				<ul class="clearfix">
+					<li><a class="what" href="#">GAME PLAY INSTRUCTIONS</a></li>
+					<li><a id="new" href="#">Start Over</a></li>
+				</ul>
+			</nav>
+
+
+
+			
+			<!-- Modal Information Box -->
+			<div class="overlay" id="modal">
+				<div class="content">
+					<h3>Instructions</h3>
+					<div>
+						<p>Instructions to come...</p>
+						
+						<a class="close" href="#">Got It!</a>
+					</div>
+				</div>
+			</div>
+
+
+			<h1>Popular Music Quiz</h1>
+			<h2>Billboard Hot 100 Achievements</h2>
+			</header>
+		
+		<div class="intro">				
+			<div class="start-button"><p>Start Quiz</p></div>
+		</div>
+
+		
+		<div class="container">
+			<div class="question">
+				<h2>Which album/artist is NOT tied for most top 10 singles from one album?</h2>
+			</div>
+			<div class="answer-choices">
+				<ul>
+					<li class="answer1"><button><span>Michael Jackson - Thriller</span></button></li>
+					<li class="answer2"><button><span>Bruce Springsteen - Born in the USA</span></button></li>
+					<li class="answer3"><button><span>Janet Jackson - Janet Jackson's Rhythm Nation 1814</span></button></li>
+					<li class="answer4"><button><span>George Michael - Faith</span></button></li>
+				</ul>
+			</div>
+			<div class="picture">								
+			</div>			
+			<div class="footer">
+				<div class="scoreboard">
+					<p class="question-counter">Question <span class="count"></span>1 of 5</p>
+					<p class="score-counter">Score so far: <span class="score"></span>0/5</p>
+				</div>
+				<div class="feedback">
+					<p></p>
+					<div class="next"></div>
+				</div>
+			</div>				
+		</div>
+
+		<div class='end'>
+			<h2>Thank you for playing!</h2>
+			<h2>You scored <span class="final"></span> out of 5</h2>
+			<div class="intro-img">
+			</div>
+			<div id="play-again" class="start-button"><p>Play Again?</p></div>
+		</div>
+	</div>
+</body>
+</html
